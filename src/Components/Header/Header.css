@@ -1,0 +1,127 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb; 
+    padding: 10px 1rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 0.75rem;
+    height: 3rem;
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    order: 2;
+  }
+  
+
+  .get-started-link {
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.375rem;
+    padding: 1rem 2rem;
+    margin-right: 0.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+    outline: none;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  
+  .get-started-link {
+    color: #ffffff;
+    background-color: #d97706;
+  }
+  
+  .get-started-link:hover {
+    background-color: #c2410c;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* @media (min-width: 1024px) {
+    .menu {
+      display: flex;
+    }
+  } */
+  
+  .menu-list {
+    list-style: none;
+    font-style: none;
+    display: flex;
+    margin-top: 1rem;
+    font-weight: 500;
+  }
+  
+  /* @media (min-width: 1024px) {
+    .menu-list {
+      flex-direction: row;
+      margin-top: 0;
+      gap: 2rem;
+    }
+  } */
+  
+  .menu-item {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .menu-item:hover {
+    background-color: #f9fafb;
+  }
+
+  .logo:hover {
+    background-color: #f9fafb;
+  }
+  
+  /* @media (min-width: 1024px) {
+    .menu-item {
+      border: none; 
+      padding: 0; 
+    }
+  
+    .menu-item:hover {
+      background-color: transparent; 
+    }
+  } */
+  
+  .menu-item.active {
+    color: #d97706; 
+  }
+  
+  .menu-item.inactive {
+    color: #4b5563; 
+  }
+  
+  .menu-item:hover {
+    color: #d97706; 
+  }
+  
