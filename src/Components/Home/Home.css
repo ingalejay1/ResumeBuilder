@@ -1,0 +1,90 @@
+/* Home.css */
+.home {
+    /* min-height: 100vh; */
+    padding-top: 30px;
+    overflow: hidden;
+  }
+  
+
+  .first-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+
+  .frist-content-left{
+    max-width: 40vw;
+  }
+
+  .frist-content-right{
+    background-color: aqua;
+    border-radius: 20px;
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .frist-content-right img{
+   height: 600px;
+   padding: 10px 20px;
+  }
+  
+  .first-content-main {
+    font-size: 6rem;
+  }
+  .first-content-main-1 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    padding-bottom: 30px;
+  }
+
+  .second-content {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+  }
+
+  .second-content-main {
+    font-size: 6rem;
+    max-width: 30vw;
+  }
+  .second-content-data{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    font-size: 1.25rem;
+  }
+
+  .second-content-data div {
+    padding: 20px;
+  }
+
+  .third-content {
+    display: flex;
+    margin-left: 5vw;
+    align-items: center;
+  }
+
+  .third-content img {
+    width: 60vw;
+    margin-left: 5vw;
+  }
+  
+  .third-content-main {
+    font-size: 5rem;
+    
+  }
+
+  .forth-content{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .forth-content img {
+    width: 90vw;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
