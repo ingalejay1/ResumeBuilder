@@ -37,7 +37,7 @@
   }
   
 
-  .get-started-link {
+  .get-started-link, .nav-link {
     font-size: 1rem;
     font-weight: 500;
     border-radius: 0.375rem;
@@ -50,12 +50,16 @@
   }
   
   
-  .get-started-link {
+  .get-started-link, .nav-link {
     color: #ffffff;
     background-color: #d97706;
   }
   
   .get-started-link:hover {
+    background-color: #c2410c;
+  }
+
+  .nav-link:hover {
     background-color: #c2410c;
   }
   
