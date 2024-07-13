@@ -9,6 +9,7 @@ import Features from './Components/Features/Features.jsx'
 import GetStarted from './Components/GetStarted/GetStarted.jsx'
 import Register from './Components/Auth/Register.jsx'
 import Login from './Components/Auth/Login.jsx'
+import Templates from './Components/Templates/Templates.jsx'
 import './index.css'
 
 
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
       { path: 'features', element: <Features /> },
       { path: 'get-started', element: <GetStarted />},
       { path: 'register', element: <Register />},
-      { path: 'login', element: <Login />}
+      { path: 'login', element: <Login />},
+      { path: 'templates', element: <Templates />}
     ]
 
   }

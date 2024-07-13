@@ -16,7 +16,7 @@ const Home = () => {
             <p className='first-content-main'>Unleash Your Full Potential</p>
             <p className='first-content-main-1'>Take Your Career to New Heights with our AI-Boosted All-in-One Platform. Start for Free and Elevate with Premium Options.</p>
             <div className='auth-links'>
-            <Link to="#" className="get-started-link">
+            <Link to="get-started" className="get-started-link">
               Get started - It's free
             </Link>
           </div>
@@ -37,7 +37,7 @@ const Home = () => {
             <p className='third-content-main'>Customizable Templates</p>
             <p>Unleash possibilities with ResumeBuilder's thoughtfully designed templates. Whether for resumes, cover letters, personal websites, or more, our customizable templates help you make a lasting impact.</p>
             <div className='auth-links'>
-            <Link to="#" className="get-started-link">
+            <Link to="templates" className="get-started-link">
               See all templates
             </Link>
           </div>
