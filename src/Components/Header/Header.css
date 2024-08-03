@@ -128,4 +128,8 @@
   .menu-item:hover {
     color: #d97706; 
   }
+
+  .auth-button {
+    margin-left: 5px;
+  }
   

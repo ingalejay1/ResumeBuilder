@@ -1,0 +1,82 @@
+.resume-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.resume-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resume-list-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.resume-list-header button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-list-header button:hover {
+    background-color: #0056b3;
+}
+
+.resume-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-item:last-child {
+    border-bottom: none;
+}
+
+.resume-title {
+    font-size: 18px;
+    color: #555;
+}
+
+.resume-actions button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.resume-actions button:hover {
+    background-color: #218838;
+}
+
+.resume-actions .delete-button {
+    background-color: #dc3545;
+}
+
+.resume-actions .delete-button:hover {
+    background-color: #c82333;
+}

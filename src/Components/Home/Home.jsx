@@ -1,9 +1,9 @@
+// Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Hero from './hero.webp'
-import Image1 from './image1.webp'
-import Image2 from './image2.webp'
-
+import Hero from './hero.webp';
+import Image1 from './image1.webp';
+import Image2 from './image2.webp';
 
 import './Home.css';
 
@@ -12,17 +12,17 @@ const Home = () => {
     <div className="home">
       <div className="home-content">
         <div className="first-content">
-          <div className='frist-content-left'>
+          <div className='first-content-left'>
             <p className='first-content-main'>Unleash Your Full Potential</p>
             <p className='first-content-main-1'>Take Your Career to New Heights with our AI-Boosted All-in-One Platform. Start for Free and Elevate with Premium Options.</p>
             <div className='auth-links'>
-            <Link to="get-started" className="get-started-link">
-              Get started - It's free
-            </Link>
+              <Link to="get-started" className="get-started-link">
+                Get started - It's free
+              </Link>
+            </div>
           </div>
-          </div>
-          <div className='frist-content-right'>
-          <img src={Hero} alt="heroImg"/>
+          <div className='first-content-right'>
+            <img src={Hero} alt="heroImg"/>
           </div>
         </div>
         <div className="second-content">
@@ -37,16 +37,16 @@ const Home = () => {
             <p className='third-content-main'>Customizable Templates</p>
             <p>Unleash possibilities with ResumeBuilder's thoughtfully designed templates. Whether for resumes, cover letters, personal websites, or more, our customizable templates help you make a lasting impact.</p>
             <div className='auth-links'>
-            <Link to="templates" className="get-started-link">
-              See all templates
-            </Link>
-          </div>
+              <Link to="templates" className="get-started-link">
+                See all templates
+              </Link>
+            </div>
           </div>
           <div>
             <img src={Image1} alt="image" />
           </div>
         </div>
-        <div className="forth-content">
+        <div className="fourth-content">
           <img src={Image2} alt="image" />
         </div>
       </div>
@@ -55,3 +55,4 @@ const Home = () => {
 };
 
 export default Home;
+

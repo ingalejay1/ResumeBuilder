@@ -84,4 +84,18 @@
   .auth-button:hover {
     background-color: #c05621;
   }
+
+  .form-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
   
+  .auth-error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .form-input.input-error {
+    border: 1px solid red;
+  }
