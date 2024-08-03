@@ -103,7 +103,7 @@ body {
   font-weight: 900;
   color: #00796b;
   margin-bottom: 20px;
-  animation: popUp 1s ease-in-out, rotateText 5s infinite;
+  animation: popUp 1s ease-in-out, rotateText 5s ease;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   background: linear-gradient(90deg, #ff6f61, #d76d77, #3a1c71);
   -webkit-background-clip: text;
@@ -171,7 +171,7 @@ body {
   margin-bottom: 20px;
   font-weight: 900;
   color: #00796b;
-  animation: popUp 1s ease-in-out, rotateText 5s infinite;
+  animation: popUp 1s ease-in-out;
 }
 
 .second-content-data {
@@ -221,7 +221,7 @@ body {
   flex: 1;
   font-weight: 900;
   color: #00796b;
-  animation: popUp 1s ease-in-out, rotateText 5s infinite;
+  animation: popUp 1s ease-in-out;
 }
 
 .fourth-content {

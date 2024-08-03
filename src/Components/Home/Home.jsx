@@ -46,9 +46,6 @@ const Home = () => {
             <img src={Image1} alt="image" />
           </div>
         </div>
-        <div className="fourth-content">
-          <img src={Image2} alt="image" />
-        </div>
       </div>
     </div>
   );
